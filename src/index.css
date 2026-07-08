@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-agri-bg: #F4F7F2;
+  --color-agri-text: #2D332B;
+  --color-agri-muted: #7A8C75;
+  --color-agri-accent: #6B8E23;
+  --color-agri-deep: #2D5A27;
+  --color-agri-dark: #1B2B18;
+  --color-agri-sage: #A8C69F;
+  --color-agri-soft: #F1F6EF;
+  --color-agri-border: #E0E7DE;
+  --color-agri-bright: #8BC34A;
+}
+
+/* Base style overrides to apply Clean Minimalism background and fonts universally */
+body {
+  font-family: var(--font-sans);
+}

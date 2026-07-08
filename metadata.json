@@ -1,0 +1,6 @@
+{
+  "name": "AgriMind AI",
+  "description": "Your Smart Farming Assistant. Features secure Gemini AI chatbot, plant disease camera scans, weather forecasts, market prices, and government schemes.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
